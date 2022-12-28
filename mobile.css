@@ -22,6 +22,7 @@ body {
 header {
   padding: 1rem 2rem 0;
 }
+
 .desktop-nav-bar {
   display: none;
 }
@@ -224,14 +225,19 @@ header {
 }
 
 /* PARTNERS SECTION */
+
+#partner {
+  background-color: var(--main-text-color);
+  padding: 2rem;
+}
+
 .partner-heading {
   text-align: center;
-  color: var(--main-text-color);
+  color: var(--program-text-color);
 }
 
 .partners-logos-container {
   margin: 1rem 0;
-  background-color: var(--main-text-color);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -241,4 +247,36 @@ header {
 
 .partners-logo {
   width: 100px;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.footer-heading,
+.footer-description {
+  color: var(--main-text-color);
+}
+
+.footer-heading {
+  font-size: 1rem;
+}
+
+.footer-description {
+  font-size: 0.7rem;
 }
