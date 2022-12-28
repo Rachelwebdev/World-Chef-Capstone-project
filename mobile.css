@@ -4,7 +4,7 @@
   --main-bg-color: #f1eeee;
   --main-text-color: #636467;
   --contrast-text-color: #ec5242;
-  --program-text-color: rgb(246, 238, 238);
+  --program-text-color: #f6eeee;
 }
 
 * {
@@ -161,7 +161,61 @@ body {
   margin-top: 3rem;
 }
 
+.judges-container {
+  margin-top: 2rem;
+}
+
 .judges-heading {
   text-align: center;
-  color: var;
+  color: var(--main-text-color);
+}
+
+.single-judge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.images {
+  position: relative;
+}
+
+.bg-img {
+  width: 80px;
+  position: absolute;
+  z-index: -1;
+  top: -12%;
+  left: -10%;
+}
+
+.judge-avatar {
+  width: 120px;
+}
+
+.judges-description {
+  margin-left: 2rem;
+}
+
+.judge-name {
+  color: var(--main-text-color);
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.judge-achievement {
+  color: var(--contrast-text-color);
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.grey-borderline {
+  border-bottom: 1px solid var(--main-text-color);
+  width: 30px;
+  margin: 0.5rem 0;
+}
+
+.judge-background {
+  color: var(--main-text-color);
+  font-size: 0.8rem;
 }
