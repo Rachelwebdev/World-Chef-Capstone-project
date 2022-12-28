@@ -14,12 +14,14 @@
 }
 
 body {
-  padding: 2rem;
   font-family: "Lato", sans-serif;
   background-color: var(--main-bg-color);
 }
 
 /* NAVIGATION BAR */
+header {
+  padding: 1rem 2rem 0;
+}
 .desktop-nav-bar {
   display: none;
 }
@@ -54,7 +56,7 @@ body {
 /* HERO SECTION */
 
 #competition {
-  padding: 2rem 0;
+  padding: 2rem;
   /* background-image: url("./images/bg-image-hero.webp"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,7 +111,7 @@ body {
 
 .program-heading {
   text-align: center;
-  color: rgb(246, 238, 238);
+  color: var(--program-text-color);
 }
 
 .orange-borderline {
@@ -159,6 +161,7 @@ body {
 /* Judges Section */
 #judges {
   margin-top: 3rem;
+  padding: 0 2rem;
 }
 
 .judges-container {
@@ -218,4 +221,24 @@ body {
 .judge-background {
   color: var(--main-text-color);
   font-size: 0.8rem;
+}
+
+/* PARTNERS SECTION */
+.partner-heading {
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.partners-logos-container {
+  margin: 1rem 0;
+  background-color: var(--main-text-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.partners-logo {
+  width: 100px;
 }
