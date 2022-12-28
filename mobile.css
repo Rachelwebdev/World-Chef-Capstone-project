@@ -1,16 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 :root {
-  --main-bg-color: #d3d3d3;
-  --main-text-color: #272a31;
+  --main-bg-color: #f1eeee;
+  --main-text-color: #636467;
   --contrast-text-color: #ec5242;
+  --program-text-color: rgb(246, 238, 238);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
   font-family: "Lato", sans-serif;
+  background-color: var(--main-bg-color);
 }
 
 /* NAVIGATION BAR */
@@ -43,4 +49,119 @@
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background-color: var(--main-text-color);
+}
+
+/* HERO SECTION */
+
+#competition {
+  padding: 2rem 0;
+  /* background-image: url("./images/bg-image-hero.webp"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+}
+
+.pre-heading,
+.main-heading {
+  color: var(--contrast-text-color);
+  padding-bottom: 0.5rem;
+}
+
+.main-heading {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.main-description {
+  border: 2px solid #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.main-description,
+.event-date,
+.location {
+  color: var(--main-text-color);
+}
+
+.event-date {
+  padding-bottom: 0.5rem;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.location {
+  font-size: 1rem;
+}
+
+/* PROGRAM SECTION */
+#program {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem 1rem;
+  background: #000;
+  background-image: url("./images/carbon_fibre.png");
+}
+
+.program-heading {
+  text-align: center;
+  color: rgb(246, 238, 238);
+}
+
+.orange-borderline {
+  border-bottom: 1px solid var(--contrast-text-color);
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.program-icon {
+  width: 30px;
+}
+
+.single-program {
+  text-align: left;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(63, 63, 65, 0.7);
+  padding: 1rem 0.5rem;
+}
+
+.single-program-heading {
+  color: var(--contrast-text-color);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.program-description {
+  color: var(--program-text-color);
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  max-width: 60%;
+}
+
+.join-btn {
+  background-color: var(--contrast-text-color);
+  padding: 1.7rem;
+  color: var(--program-text-color);
+  border: none;
+  width: 70%;
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+/* Judges Section */
+#judges {
+  margin-top: 3rem;
+}
+
+.judges-heading {
+  text-align: center;
+  color: var;
 }
