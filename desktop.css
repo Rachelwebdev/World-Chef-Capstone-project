@@ -3,6 +3,10 @@
 /* DESKTOP VERSION MEDIA QUERY */
 
 @media (min-width: 768px) {
+  main {
+    padding: 4rem 6rem;
+  }
+
   /* NAVIGATION BAR */
   .desktop-nav-bar {
     display: flex;
@@ -50,5 +54,66 @@
     border: 3px solid #ec5242;
     color: var(--contrast-text-color);
     padding: 4px;
+  }
+
+  /* Hero Section */
+
+  .pre-heading {
+    font-size: 2rem;
+  }
+
+  .main-heading {
+    font-size: 3.5rem;
+  }
+
+  .main-description {
+    font-size: 0.6rem;
+    line-height: 1rem;
+    width: 60%;
+  }
+
+  /* Program section */
+  .programs-container {
+    flex-direction: row;
+    margin: 3rem;
+  }
+
+  .single-program {
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: hsla(220, 3%, 39%, 0.489);
+    margin-right: 2px;
+    width: 60%;
+    padding: 1rem 0;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .btn-program {
+    color: var(--program-text-color);
+    font-size: 0.8rem;
+    opacity: 0.7;
+    display: block;
+  }
+
+  .program-icon,
+  .single-program-heading {
+    margin-bottom: 0.5rem;
+  }
+
+  .single-program-heading {
+    font-size: 0.8rem;
+  }
+
+  .exhibition-heading {
+    max-width: 100%;
+  }
+
+  .program-description {
+    color: var(--program-text-color);
+    font-size: 0.5rem;
+    max-width: 80%;
   }
 }
