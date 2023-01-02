@@ -20,10 +20,9 @@ body {
 }
 
 /* NAVIGATION BAR */
-.body-container {
-  /* display: none; */
+/* .body-container {
   z-index: -1;
-}
+} */
 
 header {
   background-color: #fff;
@@ -36,7 +35,6 @@ header {
 
 .hamburger {
   cursor: pointer;
-  /* z-index: 1; */
 }
 
 .bar {
@@ -81,14 +79,14 @@ ul li a {
   transition: all 0.3s ease-in-out;
 }
 
-.nav-item {
-  margin-bottom: 2rem;
-}
-
 ul li a:hover {
   cursor: pointer;
   color: var(--contrast-text-color);
   font-size: 1.2rem;
+}
+
+.nav-item {
+  margin-bottom: 2rem;
 }
 
 .nav-last-child {
@@ -107,7 +105,7 @@ ul li a:hover {
   height: 100%;
   position: absolute;
   right: 0;
-  top: 9.5%;
+  top: 12%;
   width: 100%;
   display: none;
 }
@@ -127,8 +125,8 @@ ul li a:hover {
 /* HERO SECTION */
 
 #competition {
-  padding: 2rem;
-  /* background-image: url("./images/bg-image-hero.webp"); */
+  padding: 4rem;
+  background-image: url("./images/background-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -178,7 +176,6 @@ ul li a:hover {
 /* PROGRAM SECTION */
 #program {
   text-align: center;
-  margin-top: 2rem;
   padding: 2rem 1rem;
   background: #000;
   background-image: url("./images/carbon_fibre.png");

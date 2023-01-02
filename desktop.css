@@ -4,7 +4,7 @@
 
 @media (min-width: 768px) {
   #hero-section {
-    padding: 4rem 6rem;
+    /* padding: 4rem 6rem; */
   }
 
   /* NAVIGATION BAR */
@@ -51,12 +51,6 @@
 
   .nav-item {
     margin-bottom: 0;
-  }
-
-  .nav-last-child {
-    /* border: 3px solid #ec5242; */
-    /* color: var(--contrast-text-color); */
-    /* padding: 4px; */
   }
 
   .hamburger-menu-container {
