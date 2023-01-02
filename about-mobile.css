@@ -15,7 +15,8 @@
 
 .contact-text {
   text-align: center;
-  padding: 0.5rem 2rem;
+  font-size: 0.8rem;
+  padding: 1.5rem 2rem;
   color: var(--main-text-color);
 }
 
@@ -97,7 +98,65 @@
   margin: 0 auto;
 }
 
-.past-competition-images {
+.images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 6rem;
+  row-gap: 2rem;
+}
+
+/* .past-competition-images {
   width: 300px;
   margin-bottom: 1rem;
+} */
+
+.image-background-1 {
+  background: url("./images/2021-congress-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.image-overlay-1 {
+  background-color: rgba(236, 83, 66, 0.58);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-background-2 {
+  background: url("./images/2022-congress-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.image-overlay-2 {
+  background-color: rgba(236, 83, 66, 0.58);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.year,
+.past-year-description {
+  color: #fff;
 }
