@@ -1,5 +1,54 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/* DESKTOP VERSION MEDIA QUERY */
+
+@media (min-width: 768px) {
+  /* NAVIGATION BAR */
+  .desktop-nav-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo-div {
+    display: flex;
+  }
+
+  .logo-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo-title {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--main-text-color);
+    margin-left: 1.5rem;
+  }
+
+  ul li a:hover {
+    color: var(--contrast-text-color);
+  }
+
+  .nav-last-child {
+    border: 3px solid #ec5242;
+    color: var(--contrast-text-color);
+    padding: 4px;
+  }
 }
