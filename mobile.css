@@ -116,6 +116,10 @@ ul li a:hover {
   display: block;
 }
 
+.remove-body {
+  display: none;
+}
+
 .menu-container {
   position: fixed;
 }
