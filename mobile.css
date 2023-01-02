@@ -187,6 +187,7 @@ header {
 
 .judges-container {
   margin-top: 2rem;
+  display: grid;
 }
 
 .judges-heading {
