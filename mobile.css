@@ -20,10 +20,14 @@ body {
 }
 
 /* NAVIGATION BAR */
+.body-container {
+  /* display: none; */
+  z-index: -1;
+}
+
 header {
   background-color: #fff;
   padding: 1rem 2rem;
-  box-shadow: 0 11px 9px 1px rgba(191, 177, 177, 0.75);
 }
 
 .desktop-nav-bar {
@@ -32,6 +36,7 @@ header {
 
 .hamburger {
   cursor: pointer;
+  /* z-index: 1; */
 }
 
 .bar {
@@ -55,6 +60,64 @@ header {
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
   background-color: var(--main-text-color);
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  padding: 0 0 2rem 2rem;
+}
+
+ul li {
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item {
+  margin-bottom: 2rem;
+}
+
+ul li a:hover {
+  cursor: pointer;
+  color: var(--contrast-text-color);
+  font-size: 1.2rem;
+}
+
+.nav-last-child {
+  border: 3px solid #ec5242;
+  color: var(--contrast-text-color);
+  padding: 4px;
+}
+
+.nav-last-child:hover {
+  border: 3px solid #272a31;
+  border-radius: 4px;
+}
+
+.hamburger-menu-container {
+  background-color: #fff;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  display: none;
+}
+
+.show-menu {
+  display: block;
+}
+
+.menu-container {
+  position: fixed;
 }
 
 /* HERO SECTION */
@@ -172,7 +235,7 @@ header {
   border: none;
   width: 70%;
   font-size: 0.85rem;
-  margin-top: 1rem;
+  margin: 1rem auto 0;
 }
 
 .btn-program {
@@ -207,15 +270,15 @@ header {
 }
 
 .bg-img {
-  width: 80px;
+  width: 70px;
   position: absolute;
   z-index: -1;
   top: -12%;
-  left: -10%;
+  left: -20%;
 }
 
 .judge-avatar {
-  width: 120px;
+  width: 100px;
 }
 
 .judges-description {
@@ -225,13 +288,13 @@ header {
 .judge-name {
   color: var(--main-text-color);
   padding-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .judge-achievement {
   color: var(--contrast-text-color);
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .grey-borderline {
@@ -242,7 +305,7 @@ header {
 
 .judge-background {
   color: var(--main-text-color);
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 /* PARTNERS SECTION */

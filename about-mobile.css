@@ -4,10 +4,11 @@
 
 .about-heading {
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem 0 1.5rem 0;
 }
 
 .about-description {
+  margin: 2.5rem auto 0;
   background-color: #fff;
   border: 1px solid var(--border-lines-color);
 }

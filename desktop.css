@@ -32,7 +32,10 @@
   }
 
   .nav-menu {
-    display: flex;
+    /* display: flex; */
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 0;
   }
 
   ul li {
@@ -46,14 +49,18 @@
     margin-left: 1.5rem;
   }
 
-  ul li a:hover {
-    color: var(--contrast-text-color);
+  .nav-item {
+    margin-bottom: 0;
   }
 
   .nav-last-child {
-    border: 3px solid #ec5242;
-    color: var(--contrast-text-color);
-    padding: 4px;
+    /* border: 3px solid #ec5242; */
+    /* color: var(--contrast-text-color); */
+    /* padding: 4px; */
+  }
+
+  .hamburger-menu-container {
+    display: none;
   }
 
   /* Hero Section */
