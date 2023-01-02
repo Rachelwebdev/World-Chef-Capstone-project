@@ -107,11 +107,6 @@
   row-gap: 2rem;
 }
 
-/* .past-competition-images {
-  width: 300px;
-  margin-bottom: 1rem;
-} */
-
 .image-background-1 {
   background: url("./images/2021-congress-img.jpg");
   background-repeat: no-repeat;
@@ -159,4 +154,13 @@
 .year,
 .past-year-description {
   color: #fff;
+}
+
+.footer-about {
+  background-color: var(--main-text-color);
+}
+
+.footer-heading-about,
+.footer-description-about {
+  color: var(--program-text-color);
 }
