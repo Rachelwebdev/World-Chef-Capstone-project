@@ -3,7 +3,7 @@
 /* DESKTOP VERSION MEDIA QUERY */
 
 @media (min-width: 768px) {
-  main {
+  #hero-section {
     padding: 4rem 6rem;
   }
 
@@ -93,6 +93,7 @@
 
   .btn-program {
     color: var(--program-text-color);
+    padding-bottom: 2rem;
     font-size: 0.8rem;
     opacity: 0.9;
     display: block;
@@ -118,8 +119,17 @@
   }
 
   /* Judges Container */
+
+  #judges {
+    padding: 2rem 6rem;
+  }
+
   .judges-container {
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
+  }
+
+  #footer {
+    padding: 2rem 10rem;
   }
 }
