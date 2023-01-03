@@ -309,7 +309,7 @@ ul li a:hover {
 .judge-achievement {
   color: var(--contrast-text-color);
   font-style: italic;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .grey-borderline {
@@ -320,7 +320,7 @@ ul li a:hover {
 
 .judge-background {
   color: var(--main-text-color);
-  font-size: 0.6rem;
+  font-size: 0.8rem;
 }
 
 /* PARTNERS SECTION */
