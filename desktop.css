@@ -3,11 +3,8 @@
 /* DESKTOP VERSION MEDIA QUERY */
 
 @media (min-width: 768px) {
-  #hero-section {
-    /* padding: 4rem 6rem; */
-  }
-
   /* NAVIGATION BAR */
+
   .desktop-nav-bar {
     display: flex;
     justify-content: space-between;
