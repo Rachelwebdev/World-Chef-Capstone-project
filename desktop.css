@@ -65,8 +65,8 @@
   }
 
   .main-description {
-    font-size: 0.6rem;
-    line-height: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
     width: 60%;
   }
 
@@ -83,6 +83,10 @@
     margin-right: 2px;
     width: 60%;
     padding: 1rem 0;
+  }
+
+  .program-description {
+    font-size: 1.7rem;
   }
 
   .join-btn {

@@ -233,7 +233,7 @@ ul li a:hover {
 
 .program-description {
   color: var(--program-text-color);
-  font-size: 3rem;
+  font-size: 0.9rem;
   line-height: 1.2rem;
   max-width: 60%;
 }
