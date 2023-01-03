@@ -69,7 +69,7 @@ A Browser
 
 Clone this repository to your desired folder:
 
-`git@github.com:Rachelwebdev/Portfolio-Project.git`
+`git@github.com:Rachelwebdev/World-Chef-Capstone-project.git`
 
 ### Install
 
