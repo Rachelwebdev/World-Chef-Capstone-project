@@ -114,12 +114,6 @@
     max-width: 100%;
   }
 
-  .program-description {
-    color: var(--program-text-color);
-    font-size: 0.5rem;
-    max-width: 80%;
-  }
-
   /* Judges Container */
 
   #judges {
