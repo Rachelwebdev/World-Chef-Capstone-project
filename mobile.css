@@ -133,13 +133,13 @@ ul li a:hover {
 .main-heading {
   color: var(--contrast-text-color);
   padding-bottom: 0.5rem;
-  animation-duration: 3000ms;
+  animation-duration: 1s;
   animation-name: slidein;
 }
 
 @keyframes slidein {
   0% {
-    margin-top: 100%;
+    margin-left: 100%;
     width: 300%;
   }
 
