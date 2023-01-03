@@ -100,7 +100,7 @@ ul li a:hover {
   height: 100%;
   position: absolute;
   right: 0;
-  top: 12%;
+  top: 40px;
   width: 100%;
   display: none;
 }
