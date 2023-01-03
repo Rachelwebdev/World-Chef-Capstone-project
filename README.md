@@ -53,7 +53,7 @@
 
 >
 
-- [Live Demo Link](https://github.com/Rachelwebdev/World-Chef-Capstone-project)
+- [Live Demo Link](https://rachelwebdev.github.io/World-Chef-Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
