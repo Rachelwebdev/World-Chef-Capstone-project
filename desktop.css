@@ -55,6 +55,11 @@
 
   /* Hero Section */
 
+  .pre-heading,
+  .main-heading {
+    animation-duration: 3s;
+  }
+
   .pre-heading {
     font-size: 2rem;
   }

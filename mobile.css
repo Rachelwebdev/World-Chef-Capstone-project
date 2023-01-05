@@ -133,7 +133,7 @@ ul li a:hover {
 .main-heading {
   color: var(--contrast-text-color);
   padding-bottom: 0.5rem;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-name: slidein;
 }
 
