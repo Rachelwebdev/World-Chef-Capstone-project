@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 :root {
   --main-bg-color: #f1eeee;
@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: var(--main-bg-color);
 }
 
@@ -121,7 +121,7 @@ ul li a:hover {
 
 #competition {
   padding: 4rem;
-  background-image: url("./images/background-image.jpg");
+  background-image: url('./images/background-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -187,7 +187,7 @@ ul li a:hover {
   text-align: center;
   padding: 2rem 1rem;
   background: #000;
-  background-image: url("./images/carbon_fibre.png");
+  background-image: url('./images/carbon_fibre.png');
 }
 
 .program-heading {
@@ -321,13 +321,15 @@ ul li a:hover {
 /* PARTNERS SECTION */
 
 #partner {
-  background-color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+  border-top: 2px solid var(--main-text-color);
+  border-bottom: 2px solid var(--main-text-color);
   padding: 2rem;
 }
 
 .partner-heading {
   text-align: center;
-  color: var(--program-text-color);
+  color: var(--main-text-color);
 }
 
 .partners-logos-container {
