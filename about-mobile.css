@@ -1,0 +1,166 @@
+/* ABOUT PAGE */
+
+/* SECTION 1 */
+
+.about-heading {
+  text-align: center;
+  padding: 2rem 0 1.5rem 0;
+}
+
+.about-description {
+  margin: 2.5rem auto 0;
+  background-color: #fff;
+  border: 1px solid var(--border-lines-color);
+}
+
+.contact-text {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1.5rem 2rem;
+  color: var(--main-text-color);
+}
+
+.email-contact {
+  font-size: 0.8rem;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* SECTION 2 */
+
+#logo-section {
+  background-color: #fff;
+  padding: 2rem 0;
+}
+
+.logo-heading,
+.logo-description {
+  text-align: center;
+  color: var(--main-text-color);
+  padding: 0.5rem 1rem;
+}
+
+.logo-heading {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.logo-description {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.5px solid var(--border-lines-color);
+  width: 60%;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+}
+
+.about-logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.about-logo-text {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.date-location {
+  font-size: 0.5rem;
+  margin: 0.3rem 0;
+  border-top: 2px solid var(--border-lines-color);
+  border-bottom: 2px solid var(--border-lines-color);
+  text-align: left;
+  color: var(--main-text-color);
+}
+
+/* SECTION 3 */
+
+#past-competition {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.past-competition-heading {
+  color: var(--main-text-color);
+}
+
+.past-competition-description {
+  color: var(--main-text-color);
+  padding: 1rem 0 2rem;
+  font-size: 0.7rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 6rem;
+  row-gap: 2rem;
+}
+
+.image-background-1 {
+  background: url("./images/2021-congress-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.image-overlay-1 {
+  background-color: rgba(236, 83, 66, 0.58);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-background-2 {
+  background: url("./images/2022-congress-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
+
+.image-overlay-2 {
+  background-color: rgba(236, 83, 66, 0.58);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.year,
+.past-year-description {
+  color: #fff;
+}
+
+.footer-about {
+  background-color: var(--main-text-color);
+}
+
+.footer-heading-about,
+.footer-description-about {
+  color: var(--program-text-color);
+}

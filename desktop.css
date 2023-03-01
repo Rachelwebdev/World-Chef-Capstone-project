@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+/* DESKTOP VERSION MEDIA QUERY */
+
+@media (min-width: 768px) {
+  /* NAVIGATION BAR */
+
+  .desktop-nav-bar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .logo-div {
+    display: flex;
+  }
+
+  .logo-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo-title {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    margin: 0.5rem;
+    padding: 0;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--main-text-color);
+    margin-left: 1.5rem;
+  }
+
+  .nav-item {
+    margin-bottom: 0;
+  }
+
+  .hamburger-menu-container {
+    display: none;
+  }
+
+  /* Hero Section */
+
+  .pre-heading {
+    font-size: 2rem;
+  }
+
+  .main-heading {
+    font-size: 3.5rem;
+  }
+
+  .main-description {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    width: 60%;
+  }
+
+  /* Program section */
+  .programs-container {
+    flex-direction: row;
+    margin: 3rem;
+  }
+
+  .single-program {
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: hsla(220, 3%, 39%, 0.489);
+    margin-right: 2px;
+    width: 60%;
+    padding: 1rem 0;
+  }
+
+  .program-description {
+    font-size: 0.8rem;
+  }
+
+  .join-btn {
+    display: none;
+  }
+
+  .btn-program {
+    color: var(--program-text-color);
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    display: block;
+  }
+
+  .program-icon,
+  .single-program-heading {
+    margin-bottom: 0.5rem;
+  }
+
+  .single-program-heading {
+    font-size: 0.8rem;
+  }
+
+  .exhibition-heading {
+    max-width: 100%;
+  }
+
+  /* Judges Container */
+
+  #judges {
+    padding: 2rem 6rem;
+  }
+
+  .judges-container {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+
+  #footer {
+    padding: 2rem 10rem;
+  }
+}

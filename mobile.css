@@ -1,0 +1,377 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --main-bg-color: #f1eeee;
+  --main-text-color: #272a31;
+  --contrast-text-color: #ec5242;
+  --program-text-color: #f6eeee;
+  --border-lines-color: #d9dadf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--main-bg-color);
+}
+
+header {
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.desktop-nav-bar {
+  display: none;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: var(--main-text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: var(--main-text-color);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: var(--main-text-color);
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  padding: 0 0 2rem 2rem;
+}
+
+ul li {
+  margin-left: 1rem;
+  list-style-type: none;
+}
+
+ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: all 0.3s ease-in-out;
+}
+
+ul li a:hover {
+  cursor: pointer;
+  color: var(--contrast-text-color);
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  margin-bottom: 2rem;
+}
+
+.nav-last-child {
+  border: 3px solid #ec5242;
+  color: var(--contrast-text-color);
+  padding: 4px;
+}
+
+.nav-last-child:hover {
+  border: 3px solid #272a31;
+  border-radius: 4px;
+}
+
+.hamburger-menu-container {
+  background-color: #fff;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 40px;
+  width: 100%;
+  display: none;
+}
+
+.show-menu {
+  display: block;
+}
+
+.remove-body {
+  display: none;
+}
+
+.menu-container {
+  position: fixed;
+}
+
+/* HERO SECTION */
+
+#competition {
+  padding: 4rem;
+  background-image: url("./images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+}
+
+.pre-heading,
+.main-heading {
+  color: var(--contrast-text-color);
+  padding-bottom: 0.5rem;
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  100% {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.pre-heading {
+  font-size: 1.5rem;
+}
+
+.main-heading {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+
+.main-description {
+  border: 2px solid #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.main-description,
+.event-date,
+.location {
+  color: var(--main-text-color);
+}
+
+.event-date {
+  padding-bottom: 0.5rem;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.location {
+  font-size: 1rem;
+}
+
+/* PROGRAM SECTION */
+#program {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #000;
+  background-image: url("./images/carbon_fibre.png");
+}
+
+.program-heading {
+  text-align: center;
+  color: var(--program-text-color);
+}
+
+.orange-borderline {
+  border-bottom: 1px solid var(--contrast-text-color);
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+.program-icon {
+  width: 30px;
+}
+
+.single-program {
+  text-align: left;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(63, 63, 65, 0.7);
+  padding: 1rem 0.5rem;
+}
+
+.programs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.single-program-heading {
+  color: var(--contrast-text-color);
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.exhibition-heading {
+  max-width: 20%;
+}
+
+.program-description {
+  color: var(--program-text-color);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  max-width: 60%;
+}
+
+.join-btn {
+  background-color: var(--contrast-text-color);
+  padding: 1.7rem;
+  color: var(--program-text-color);
+  border: none;
+  width: 70%;
+  font-size: 0.85rem;
+  margin: 1rem auto 0;
+}
+
+.btn-program {
+  display: none;
+}
+
+/* Judges Section */
+#judges {
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.judges-container {
+  margin-top: 2rem;
+  display: grid;
+}
+
+.judges-heading {
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.single-judge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.images {
+  position: relative;
+}
+
+.bg-img {
+  width: 70px;
+  position: absolute;
+  z-index: -1;
+  top: -12%;
+  left: -20%;
+}
+
+.judge-avatar {
+  width: 100px;
+}
+
+.judges-description {
+  margin-left: 2rem;
+}
+
+.judge-name {
+  color: var(--main-text-color);
+  padding-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.judge-achievement {
+  color: var(--contrast-text-color);
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.grey-borderline {
+  border-bottom: 1px solid var(--main-text-color);
+  width: 30px;
+  margin: 0.5rem 0;
+}
+
+.judge-background {
+  color: var(--main-text-color);
+  font-size: 0.8rem;
+}
+
+/* PARTNERS SECTION */
+
+#partner {
+  background-color: var(--main-text-color);
+  padding: 2rem;
+}
+
+.partner-heading {
+  text-align: center;
+  color: var(--program-text-color);
+}
+
+.partners-logos-container {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.partners-logo {
+  width: 100px;
+}
+
+/* FOOTER SECTION */
+
+#footer {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.footer-heading,
+.footer-description {
+  color: var(--main-text-color);
+}
+
+.footer-heading {
+  font-size: 1rem;
+}
+
+.footer-description {
+  font-size: 0.7rem;
+}
